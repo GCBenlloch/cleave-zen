@@ -5,11 +5,12 @@
   "version": "0.0.17",
   "author": "Max Huang <risonhuang@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nosir/cleave-zen.git"
+    "url": "https://github.com/GCBenlloch/cleave-zen"
   },
-  "homepage": "https://github.com/nosir/cleave-zen",
+  "homepage": "https://github.com/GCBenlloch/cleave-zen",
   "files": [
     "dist"
   ],
@@ -21,13 +22,13 @@
       "require": "./dist/cleave-zen.js"
     }
   },
-  "main": "./dist/cleave-zen.js",
+  "main": "./dist/cleave-zen.cjs",
   "module": "./dist/cleave-zen.module.js",
   "unpkg": "./dist/cleave-zen.umd.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "docs": "typedoc --out docs ./src && rm ./docs/README.md",
-    "build": "yarn docs && rm -rf ./dist/ && microbundle",
+    "docs": "typedoc --out docs ./src && shx rm ./docs/README.md",
+    "build": "npm docs && shx rm -rf ./dist/ && microbundle",
     "dev": "microbundle watch"
   },
   "devDependencies": {
@@ -40,6 +41,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "microbundle": "^0.15.1",
     "prettier": "^3.1.0",
+    "shx": "^0.3.4",
     "typedoc": "^0.25.3",
     "typedoc-plugin-markdown": "^3.17.1",
     "typescript": "5.2.2"
