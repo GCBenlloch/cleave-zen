@@ -1,8 +1,9 @@
+> [!NOTE]
+> The original repository for cleave-zen appears to be unmaintained. To address this, I created this fork to fix existing bugs, ensure compatibility with modern environments, and keep the library functional for my projects and the community.
+
 # `cleave-zen`
 
-[![npm version](https://badge.fury.io/js/cleave-zen.svg)](https://badge.fury.io/js/cleave-zen)
-[![npm downloads](https://img.shields.io/npm/dm/cleave-zen.svg)](https://www.npmjs.com/package/cleave-zen)
-[![Documents](https://img.shields.io/badge/documents-check-3362c2.svg)](https://github.com/nosir/cleave-zen/blob/main/docs/modules.md)
+[![Documents](https://img.shields.io/badge/documents-check-3362c2.svg)](https://github.com/gcbenlloch/cleave-zen/blob/main/docs/modules.md)
 
 A simple library to help you format input text content
 
@@ -25,10 +26,8 @@ integration with frameworks like React, Angular, and any other libraries.
 ## Install
 
 ```sh
-npm install --save cleave-zen
+npm install --save https://github.com/gcbenlloch/cleave-zen
 ```
-
-You can use it on [unpkg.com](https://unpkg.com/cleave-zen) as a CDN version
 
 ## Usage
 
@@ -134,7 +133,7 @@ See all examples in this [repo](https://github.com/nosir/cleave-zen-examples)
 
 ## Documentation
 
-- [API](https://github.com/nosir/cleave-zen/blob/main/docs/modules.md)
+- [API](https://github.com/gcbenlloch/cleave-zen/blob/main/docs/modules.md)
 
 ## TODO List
 
